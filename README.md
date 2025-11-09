@@ -326,7 +326,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author & Acknowledgments
 
-**Project Author**: Estifo  
+**Project Author**: Estifanose Sahilu
 **Program**: 10 Academy AI/ML Engineering Program - KAIM Week 0 Challenge
 
 This project was completed as part of the 10 Academy training program, demonstrating proficiency in:
