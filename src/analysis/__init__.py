@@ -12,10 +12,22 @@ from .statistical_tests import (
     quick_correlation_test,
     summary_statistics
 )
+from .solar_metrics import (
+    SolarMetrics,
+    compare_solar_potential,
+    calculate_dni_from_ghi_dhi,
+    calculate_cleaning_impact,
+    calculate_rh_impact_on_irradiance
+)
 
 __all__ = [
     'StatisticalAnalyzer',
     'compare_groups',
     'quick_correlation_test',
     'summary_statistics',
+    'SolarMetrics',
+    'compare_solar_potential',
+    'calculate_dni_from_ghi_dhi',
+    'calculate_cleaning_impact',
+    'calculate_rh_impact_on_irradiance',
 ]
