@@ -217,6 +217,8 @@ The project analyzes high-resolution solar irradiance and meteorological data fr
 
 ### Task 4: Interactive Dashboard (Bonus) ✅
 
+-   Deployed link: [Solar Dashboard](https://solar-challenge-week0-estif0.streamlit.app/)
+
 **Completed Features:**
 
 -   [x] Production-ready Streamlit dashboard with modular architecture
@@ -234,13 +236,14 @@ The project analyzes high-resolution solar irradiance and meteorological data fr
 -   Solar irradiance metrics (GHI, DNI, DHI) with mean, std dev, min/max
 -   Solar potential assessment (annual energy kWh/m², daily average, peak irradiance)
 -   Solar resource quality rating (Excellent/Good/Fair/Poor)
-
-**2. Time Patterns Tab:**
+    ![Overview Tab Picture](./dashboard_screenshots/solar-challenge-week0-overview.png)
+    **2. Time Patterns Tab:**
 
 -   Monthly solar irradiance patterns (seasonal analysis)
 -   Hourly solar irradiance patterns (daily profiles)
 -   Separate visualizations for GHI, DNI, DHI
--   Pattern insights and interpretations
+-   Pattern insights and interpretation
+    ![Time Patterns Tab Picture](./dashboard_screenshots/solar-challenge-week0-overview-time-patterns.png)
 
 **3. Correlations Tab:**
 
@@ -248,6 +251,7 @@ The project analyzes high-resolution solar irradiance and meteorological data fr
 -   Strength interpretation guide (strong/moderate/weak correlations)
 -   Top 5 strongest correlations automatically identified
 -   Relationship analysis between solar and weather variables
+    ![Correlations Tab Picture](./dashboard_screenshots/solar-challenge-week0-overview-correlations.png)
 
 **4. Cross-Country Comparison Tab:**
 
@@ -256,6 +260,7 @@ The project analyzes high-resolution solar irradiance and meteorological data fr
 -   Statistical significance testing (ANOVA with F-statistic, p-value)
 -   Summary comparison table (7 key metrics across 3 countries)
 -   Rankings: Best countries for GHI, DNI, and annual energy potential
+    ![Comparison Tab Picture](./dashboard_screenshots/solar-challenge-week0-overview-comparisions.png)
 
 **Technical Implementation:**
 
